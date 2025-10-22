@@ -16,7 +16,7 @@ import { FaExchangeAlt } from "react-icons/fa"
 import { type UserPublic, UsersService, type UserUpdate } from "@/client"
 import type { ApiError } from "@/client/core/ApiError"
 import useCustomToast from "@/hooks/useCustomToast"
-import { emailPattern, handleError } from "@/utils"
+import { emailPattern, handleError } from "@/utils/utils"
 import { Checkbox } from "../ui/checkbox"
 import {
   DialogBody,
