@@ -19,7 +19,7 @@ import {
 } from "@/client"
 import useAuth from "@/hooks/useAuth"
 import useCustomToast from "@/hooks/useCustomToast"
-import { emailPattern, handleError } from "@/utils/utils"
+import { emailPattern, handleError } from "@/utils"
 import { Field } from "../ui/field"
 
 const UserInformation = () => {

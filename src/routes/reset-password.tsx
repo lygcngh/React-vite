@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 import { PasswordInput } from "@/components/ui/password-input"
 import { isLoggedIn } from "@/hooks/useAuth"
 import useCustomToast from "@/hooks/useCustomToast"
-import { confirmPasswordRules, handleError, passwordRules } from "@/utils/utils"
+import { confirmPasswordRules, handleError, passwordRules } from "@/utils"
 
 interface NewPasswordForm extends NewPassword {
   confirm_password: string

@@ -10,7 +10,7 @@ import { Field } from "@/components/ui/field"
 import { InputGroup } from "@/components/ui/input-group"
 import { isLoggedIn } from "@/hooks/useAuth"
 import useCustomToast from "@/hooks/useCustomToast"
-import { emailPattern, handleError } from "@/utils/utils"
+import { emailPattern, handleError } from "@/utils"
 
 interface FormData {
   email: string
